@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm install & node_modules/nuxt/bin/nuxt.js build -c ./nuxt.config.ts",
+    "build": "npm install && npm run build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
