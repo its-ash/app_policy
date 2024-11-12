@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     ssr: false,
     nitro: {
         output: {
-            publicDir: path.join(__dirname, 'build')
+            publicDir: path.join(__dirname, 'docs')
         }
     },
 })
