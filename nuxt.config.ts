@@ -10,6 +10,6 @@ export default defineNuxtConfig({
         }
     },
     app: {
-        baseURL: '/app_policy/'
+        baseURL: '/app_policy/docs/'
     }
 })
